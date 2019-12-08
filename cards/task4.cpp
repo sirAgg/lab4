@@ -3,12 +3,8 @@
 
 int main()
 {
-
     CardDeck cd;
-
     cd.print();
-
-
 
     return 0;
 }

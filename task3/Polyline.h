@@ -9,11 +9,11 @@ public:
     Polyline(int len);
     virtual ~Polyline();
 
-    void add_Point(Point2D p);
-    Point2D& get(int idx);
-    Point2D& operator[](size_t idx);
+    bool add_Point(Point2D p);
+    Point2D* get(int idx);
+    Point2D* operator[](size_t idx);
 
-    Point2D pop_last();
+    bool pop_last();
     int get_size();
     float get_lenght();
     bool contains_point();

@@ -45,6 +45,7 @@ public:
     bool operator >(const Card& o) const;
 
 private:
+    // suit and value are packed into a single char
     unsigned char card;
 };
 

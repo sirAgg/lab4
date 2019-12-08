@@ -27,11 +27,15 @@ int main()
         int num_of_tires;
         std::string model;
 
+        std::cout << "\nEnter Vehicle paramteters:\n--------------------------\n";
+
+        // Enter engine values
         std::cout << "Engine size: ";
         std::cin >> engine_size;
         std::cout << "Engine number of cylinders: ";
         std::cin >> engine_cylinders;
 
+        // Enter body values
         std::cout << "Body color: ";
         std::cin >> body_color;
         std::cout << "Body width: ";
@@ -39,6 +43,7 @@ int main()
         std::cout << "Body height: ";
         std::cin >> body_height;
 
+        // Enter owner values
         std::cout << "Owner name: ";
         std::cin >> owner_name;
         std::cout << "Owner address: ";
@@ -46,6 +51,7 @@ int main()
         std::cout << "Is owner allowed to drive[Y/n]: ";
         std::cin >> owner_allowed_to_drive;
 
+        // Enter other motorvehicle values
         std::cout << "Number of tires: ";
         std::cin >> num_of_tires;
         std::cout << "Model: ";
@@ -67,7 +73,6 @@ int main()
         std::cin >> ans;
         if(ans == "n")
             break;
-    
     }
 
     return 0;
