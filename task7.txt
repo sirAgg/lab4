@@ -1,0 +1,9 @@
+I didn't really learn anything.
+
+I belive the instructions can be a lot clearer. Especially
+in task3 it says we should store Point2D objects in an array,
+but later in the lab you imply that we should store them as
+an array on pointers to Point2D objects "(i.e. replace with nullptr, ..."
+This have led to alot of confusion and different implementations.
+      
+I have spent about 4-6 hours on this lab
